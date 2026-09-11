@@ -1,16 +1,17 @@
 # TutripSV
 
-**Nombre del alumno:** Xenia [Tu apellido aquí]
-**Carné / Matrícula:** [Tu número aquí]
-**Materia:** [Nombre de la materia]
-**Universidad:** [Nombre de la universidad]
-**Fecha:** [Fecha de entrega]
+**Nombre del alumno:** Xenia Carolina Sanchez Mancia 
+**Carné / Matrícula:SM232984
+**Materia:Desarrollo de aplicaciones para moviles
+**Universidad:Universidad Don Bosco
+
 
 ---
 
-## 📱 Descripción de la aplicación
+Descripción de la aplicación
 
-**TutripSV** es una aplicación móvil para una Agencia de Viajes que permite gestionar un catálogo de destinos turísticos. Cuenta con autenticación de usuarios y un CRUD completo de destinos con imágenes.
+**TutripSV**
+Es una aplicación móvil para una Agencia de Viajes que permite gestionar un catálogo de destinos turísticos. Cuenta con autenticación de usuarios y un CRUD completo de destinos con imágenes Que se encuentran de manera local para hace la app mas liviana.
 
 ### Funcionalidades principales
 
@@ -48,12 +49,7 @@
 
 ## 🎥 Video de defensa
 
-[Ver video en YouTube](https://www.youtube.com/watch?v=XXXXXXXXXXX)
 
-> ⚠️ Reemplazar el enlace de arriba por el enlace real del video una vez grabado.
-
----
-
-## 🚀 Instalación y uso
+🚀 Instalación y uso
 
 1. Clonar el repositorio:
