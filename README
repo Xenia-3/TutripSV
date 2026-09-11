@@ -21,13 +21,14 @@ Es una aplicación móvil para una Agencia de Viajes que permite gestionar un ca
 - ✏️ **Editar destinos** modificando cualquier campo, incluyendo la imagen.
 - 🗑️ **Eliminar destinos** con diálogo de confirmación previa.
 
-### Validaciones implementadas
+### Validaciones implementadas del enunciado 
 
 - ❌ No se permiten campos nulos o vacíos.
 - 💰 El precio debe ser obligatoriamente mayor a 0.
 - 🖼️ Cada destino debe tener una imagen asociada.
 - 📝 La descripción debe tener mínimo 20 caracteres.
 - ⚠️ Los errores se muestran en pantalla (TextInputLayout error + Toast).
+- 📝 La app cuenta con la base de datos de firebase y tambien realtime pero no con storage porque no vi bien colocar mi cuenta y me dio desconfianza. "Es mejor prevenir" :D
 
 ---
 
