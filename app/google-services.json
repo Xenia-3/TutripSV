@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293821551069",
+    "project_id": "tutripsv",
+    "storage_bucket": "tutripsv.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293821551069:android:e7c653c22d60f89a336634",
+        "android_client_info": {
+          "package_name": "com.tutripsv.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYY-YN504gg219Gt5leYtu3As5nTUbyXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

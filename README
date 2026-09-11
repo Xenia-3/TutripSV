@@ -1,0 +1,59 @@
+# TutripSV
+
+**Nombre del alumno:** Xenia [Tu apellido aquí]
+**Carné / Matrícula:** [Tu número aquí]
+**Materia:** [Nombre de la materia]
+**Universidad:** [Nombre de la universidad]
+**Fecha:** [Fecha de entrega]
+
+---
+
+## 📱 Descripción de la aplicación
+
+**TutripSV** es una aplicación móvil para una Agencia de Viajes que permite gestionar un catálogo de destinos turísticos. Cuenta con autenticación de usuarios y un CRUD completo de destinos con imágenes.
+
+### Funcionalidades principales
+
+- 🔐 **Login / Registro** de agentes de viajes mediante Firebase Authentication (Email/Password).
+- ➕ **Registrar destinos** con nombre, país (Spinner), precio, descripción e imagen desde la galería.
+- 📋 **Catálogo de destinos** en un RecyclerView con CardView que muestra foto, nombre, país, precio y descripción.
+- ✏️ **Editar destinos** modificando cualquier campo, incluyendo la imagen.
+- 🗑️ **Eliminar destinos** con diálogo de confirmación previa.
+
+### Validaciones implementadas
+
+- ❌ No se permiten campos nulos o vacíos.
+- 💰 El precio debe ser obligatoriamente mayor a 0.
+- 🖼️ Cada destino debe tener una imagen asociada.
+- 📝 La descripción debe tener mínimo 20 caracteres.
+- ⚠️ Los errores se muestran en pantalla (TextInputLayout error + Toast).
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Tecnología | Uso |
+|------------|-----|
+| **Kotlin** | Lenguaje principal |
+| **Android Studio** | IDE |
+| **Firebase Authentication** | Login y Registro |
+| **Cloud Firestore** | Base de datos de destinos |
+| **Almacenamiento local** | Guardado de imágenes en la carpeta privada de la app |
+| **Glide** | Carga de imágenes en el catálogo |
+| **Material Design** | Diseño de la interfaz |
+| **ViewBinding** | Acceso seguro a las vistas |
+| **RecyclerView + CardView** | Listado de destinos |
+
+---
+
+## 🎥 Video de defensa
+
+[Ver video en YouTube](https://www.youtube.com/watch?v=XXXXXXXXXXX)
+
+> ⚠️ Reemplazar el enlace de arriba por el enlace real del video una vez grabado.
+
+---
+
+## 🚀 Instalación y uso
+
+1. Clonar el repositorio:

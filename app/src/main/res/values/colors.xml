@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Paleta principal: Green + Light Green ===== -->
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_primary_dark">#388E3C</color>
+    <color name="green_primary_light">#C8E6C9</color>
+
+    <color name="light_green_secondary">#8BC34A</color>
+    <color name="light_green_secondary_dark">#689F38</color>
+
+    <!-- ===== Colores neutros ===== -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_900">#212121</color>
+
+    <!-- ===== Colores de texto ===== -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ===== Colores de estado ===== -->
+    <color name="error_red">#D32F2F</color>
+    <color name="success_green">#388E3C</color>
+    <color name="warning_orange">#F57C00</color>
+
+    <!-- ===== Fondo de pantallas ===== -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>

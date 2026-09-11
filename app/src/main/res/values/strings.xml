@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Nombre de la app ===== -->
+    <string name="app_name">TutripSV</string>
+
+    <!-- ===== Textos generales ===== -->
+    <string name="cargando">Cargando…</string>
+    <string name="guardando">Guardando…</string>
+    <string name="eliminando">Eliminando…</string>
+    <string name="por_favor_espere">Por favor espere…</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="atras">Atrás</string>
+
+    <!-- ===== Login ===== -->
+    <string name="login_titulo">Iniciar Sesión</string>
+    <string name="login_subtitulo">Acceso para agentes de viajes</string>
+    <string name="login_correo">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_boton">Ingresar</string>
+    <string name="login_ir_registro">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="login_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- ===== Registro ===== -->
+    <string name="registro_titulo">Crear Cuenta</string>
+    <string name="registro_subtitulo">Regístrate como agente de viajes</string>
+    <string name="registro_nombre">Nombre completo</string>
+    <string name="registro_correo">Correo electrónico</string>
+    <string name="registro_password">Contraseña</string>
+    <string name="registro_confirmar_password">Confirmar contraseña</string>
+    <string name="registro_boton">Registrarme</string>
+    <string name="registro_ir_login">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- ===== Validaciones Login / Registro ===== -->
+    <string name="error_correo_vacio">El correo no puede estar vacío</string>
+    <string name="error_correo_invalido">Ingresa un correo válido</string>
+    <string name="error_password_vacio">La contraseña no puede estar vacía</string>
+    <string name="error_password_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_nombre_vacio">El nombre no puede estar vacío</string>
+    <string name="error_passwords_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="error_credenciales">Correo o contraseña incorrectos</string>
+    <string name="error_registro">No se pudo crear la cuenta. Intenta de nuevo</string>
+    <string name="exito_registro">Cuenta creada correctamente</string>
+    <string name="exito_login">Bienvenido a TutripSV</string>
+    <string name="sesion_cerrada">Sesión cerrada correctamente</string>
+
+    <!-- ===== Catálogo de destinos ===== -->
+    <string name="catalogo_titulo">Catálogo de Destinos</string>
+    <string name="catalogo_vacio">Aún no hay destinos registrados</string>
+    <string name="catalogo_agregar">Agregar Destino</string>
+    <string name="catalogo_editar">Editar</string>
+    <string name="catalogo_eliminar">Eliminar</string>
+    <string name="catalogo_precio_formato">$%1$s</string>
+
+    <!-- ===== Crear / Editar destino ===== -->
+    <string name="destino_titulo_crear">Nuevo Destino</string>
+    <string name="destino_titulo_editar">Editar Destino</string>
+    <string name="destino_nombre">Nombre del destino</string>
+    <string name="destino_pais">País</string>
+    <string name="destino_precio">Precio del paquete (USD)</string>
+    <string name="destino_descripcion">Descripción del viaje</string>
+    <string name="destino_seleccionar_imagen">Seleccionar imagen</string>
+    <string name="destino_cambiar_imagen">Cambiar imagen</string>
+    <string name="destino_imagen_seleccionada">Imagen seleccionada</string>
+    <string name="destino_guardar">Guardar Destino</string>
+    <string name="destino_actualizar">Actualizar Destino</string>
+    <string name="destino_hint_pais">Selecciona un país</string>
+
+    <!-- ===== Validaciones Destino ===== -->
+    <string name="error_nombre_destino_vacio">El nombre del destino es obligatorio</string>
+    <string name="error_pais_vacio">Debes seleccionar un país</string>
+    <string name="error_precio_vacio">El precio es obligatorio</string>
+    <string name="error_precio_invalido">El precio debe ser un número válido</string>
+    <string name="error_precio_mayor_cero">El precio debe ser mayor a 0</string>
+    <string name="error_descripcion_vacia">La descripción es obligatoria</string>
+    <string name="error_descripcion_corta">La descripción debe tener mínimo 20 caracteres</string>
+    <string name="error_imagen_vacia">Debes seleccionar una imagen para el destino</string>
+
+    <!-- ===== Confirmación eliminar ===== -->
+    <string name="confirmar_eliminar_titulo">Eliminar destino</string>
+    <string name="confirmar_eliminar_mensaje">¿Estás segura de que deseas eliminar este destino? Esta acción no se puede deshacer.</string>
+    <string name="destino_eliminado">Destino eliminado correctamente</string>
+    <string name="error_eliminar">No se pudo eliminar el destino</string>
+
+    <!-- ===== Mensajes de éxito / error generales ===== -->
+    <string name="destino_guardado">Destino guardado correctamente</string>
+    <string name="destino_actualizado">Destino actualizado correctamente</string>
+    <string name="error_guardar">No se pudo guardar el destino</string>
+    <string name="error_actualizar">No se pudo actualizar el destino</string>
+    <string name="error_cargar_destinos">No se pudieron cargar los destinos</string>
+
+    <!-- ===== Selección de imagen ===== -->
+    <string name="permiso_imagen_denegado">Necesitas dar permiso para acceder a las imágenes</string>
+    <string name="imagen_no_seleccionada">No se seleccionó ninguna imagen</string>
+
+    <!-- ===== Países (Spinner) ===== -->
+    <string-array name="paises">
+        <item>Selecciona un país</item>
+        <item>Argentina</item>
+        <item>Belice</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Canadá</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Francia</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Italia</item>
+        <item>Japón</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Perú</item>
+        <item>Portugal</item>
+        <item>Reino Unido</item>
+        <item>República Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+</resources>
